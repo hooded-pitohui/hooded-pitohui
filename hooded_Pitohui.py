@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-import sys, requests, json, os
+import sys, requests, json, os, config
 
-var vt_key = config.VT_KEY
+vt_key = config.api_key
 
 def banner():
     print("." * 70)
